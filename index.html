@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+        background-color: rgba(197, 171, 171, 0.705);
+        padding: 2rem;
+    }
+    nav{
+    color: white;
+    }
+    .nav-item{
+    display: flex;
+    justify-content: space-between;
+    }
+    .nav-item h1 {
+    color: #4040ee;
+    }
+    .nav-item ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    }
+    .nav-item ul li a {
+    text-decoration: none;
+    color: #df4fafcb
+    }
+    .nav-item ul li a:hover{
+    color:#e93b52;
+    border-bottom: 1px solid #ffff;
+    }
+    .header{
+    position: relative; 
+    top: 0px;
+    margin-left:0px;
+    width: 100px;
+    height: 100%;
+    }
+    img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-item">
+            <h1>Pre Lim</h1>
+            <ul>
+                <li><a href=" ">HOME</a></li>
+                <li><a href=" ">ARI</a></li>
+                <li><a href=" ">MO</a></li>
+                <li><a href=" ">INPUT</a></li>
+                <li><a href=" ">LOG OUT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+
+            <div class="name">
+                <label><b>name</b></label>
+                <input type="text" name="name" id="name" placeholder="enter name">
+            <div>
+        
+            <div class="email">
+                <label><b>email</b></label>
+                <input type="email" name="email" id="email" placeholder="enter email">
+            <div>
+        
+            <div class="age">
+                <label><b>age</b></label>
+                <input type="number" name="age" id="age" placeholder="enter age">
+            <div>
+        
+            <div class="course">
+                <label><b>course</b></label>
+                <select name="course" id="course">
+                    <option value="">BSIT</option>
+                    <option value="">BSHM</option>
+                    <option value="">BEED</option>
+                    <option value="">BSED</option>
+                </select>
+            </div>
+        
+            <div class="gender">
+                <label for="gender"><b>gender</b></label>
+            </div>
+        
+            <div class="male">
+                <label for="male">male</label>
+                <input type="checkbox" name="male" id="male">
+            </div>
+        
+            <div class="female">
+                <label for="female">female</label>
+                <input type="checkbox" name="female" id="female">
+            </div>
+        
+            <div class="hobbies">
+            <label for="hobby"><b>hobbies</b></label>
+            <input type="radio" name="" id="" placeholder="enter your hobbies">
+            
+            </div>
+        
+            <div class="bio">
+                <div class="bio1">
+                  <label><b>bio</b></label>
+                </div>
+                <div class="text">
+                  <textarea id="subject" name="subject" placeholder="Write bio" style="height:200px"></textarea>
+                </div>
+        
+        </div>
+    </header>
+    <div class="image">
+        <img src="https://scontent-mnl1-2.xx.fbcdn.net/v/t39.30808-6/428663859_354756204066074_3389287146092800179_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeHqvVoTv9ZXWfUehMBImvDGT_4iY1R-hohP_iJjVH6GiBL4eJV_xLQFp3lWDMnJuGHfwHmjy2esb510bjHov-mn&_nc_ohc=nvhBXSfCf7UAX-IBaJV&_nc_ht=scontent-mnl1-2.xx&oh=00_AfAofzeMoOgm0UEV4d5-0m_wj7M7_Uf5fBWRdtVogw1w0A&oe=65DC272A" alt="">
+    </div>
+</body>
+</html>
